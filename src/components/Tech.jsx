@@ -24,9 +24,9 @@ const Tech = () => {
     <div className='flex flex-row flex-wrap justify-center gap-10'>
       {techToRender.map((technology) => (
         <div className='w-20 h-20 sm:w-28 sm:h-28' key={technology.name}>
-          <Suspense fallback={<div>Loading...</div>}>
+          {/* <Suspense fallback={<div>Loading...</div>}> */}
             <BallCanvas icon={technology.icon} />
-          </Suspense>
+          {/* </Suspense> */}
         </div>
       ))}
     </div>
