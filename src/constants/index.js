@@ -228,7 +228,7 @@ const projects = [
       // },
     ],
     image: "https://media.licdn.com/dms/image/v2/D560BAQHP4iG3eYPHPA/company-logo_200_200/company-logo_200_200/0/1696913393804?e=2147483647&v=beta&t=HA4t0YUgW02oCMWaK5tRs4efzC-2EtEq_ftD3hpZw4E",
-    source_code_link: "https://github.com/",
+    source_code_link: "",
   },
   
 ];
