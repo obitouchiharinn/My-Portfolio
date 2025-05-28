@@ -63,7 +63,16 @@ const services = [
 ];
 
 const technologies = [
+ 
   {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+   {
     name: "HTML 5",
     icon: html,
   },
@@ -78,14 +87,6 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
