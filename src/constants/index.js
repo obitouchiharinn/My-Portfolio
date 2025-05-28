@@ -80,14 +80,14 @@ const technologies = [
   //   name: "CSS 3",
   //   icon: css,
   // },
-  {
-    name: "JavaScript",
-    icon: reactjs,
-  },
-  {
-    name: "React JS",
-    icon: javascript,
-  },
+  // {
+  //   name: "JavaScript",
+  //   icon: reactjs,
+  // },
+  // {
+  //   name: "React JS",
+  //   icon: javascript,
+  // },
   {
     name: "JavaScript",
     icon: reactjs,
