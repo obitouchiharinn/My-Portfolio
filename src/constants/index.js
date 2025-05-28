@@ -88,6 +88,14 @@ const technologies = [
     name: "React JS",
     icon: javascript,
   },
+  {
+    name: "JavaScript",
+    icon: reactjs,
+  },
+  {
+    name: "React JS",
+    icon: javascript,
+  },
    {
     name: "HTML 5",
     icon: html,
