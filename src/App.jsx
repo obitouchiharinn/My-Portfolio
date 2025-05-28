@@ -1,22 +1,8 @@
 import { BrowserRouter } from "react-router-dom";
-import { useState, useEffect } from "react";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
 const App = () => {
-  const [isDesktop, setIsDesktop] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsDesktop(window.innerWidth > 768);
-    };
-
-    handleResize(); // Set initial value
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
@@ -27,17 +13,17 @@ const App = () => {
         <About />
         <div className='relative z-0'>
           <Experience />
-          {isDesktop && <StarsCanvas />}
+          <StarsCanvas />
         </div>
 
         <div className='relative z-0'>
           <Tech />
-          {isDesktop && <StarsCanvas />}
+          <StarsCanvas />
         </div>
 
         <div className='relative z-0'>
           <Works />
-          {isDesktop && <StarsCanvas />}
+          <StarsCanvas />
         </div>
         {/* <Feedbacks /> */}
         {/* <div className='relative z-0'>
